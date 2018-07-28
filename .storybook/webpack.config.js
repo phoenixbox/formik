@@ -8,7 +8,7 @@ module.exports = (storybookBaseConfig, configType, defaultConfig) => {
       test: /\.tsx?$/,
       exclude: /node_modules/,
       loader: 'awesome-typescript-loader',
-    },
+    }
   )
   defaultConfig.resolve.extensions = ['.ts', '.tsx', '.js', '.jsx']
   defaultConfig.resolve.plugins = [
